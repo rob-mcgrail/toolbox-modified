@@ -12,6 +12,11 @@
 	</div><!-- #main -->
 
 	<footer id="colophon" role="contentinfo">
+
+    <a href="<?php echo home_url( '/' ); ?>" title="<?php echo home_url( '/' ); ?>" alt="Return home">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/white_ghost_contrast_11.jpg">
+    </a>
+    <p>Ghosts courtesy of <a href="http://www.realghostphotos.20m.com/">http://www.realghostphotos.20m.com/</a></p>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

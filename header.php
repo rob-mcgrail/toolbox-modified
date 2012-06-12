@@ -55,9 +55,13 @@
 <?php do_action( 'before' ); ?>
 	<header id="branding" role="banner">
 		<hgroup>
-			<h1 id="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h1 id="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1> -->
 			<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</hgroup>
 	</header><!-- #branding -->
+
+  <a href="<?php echo home_url( '/' ); ?>" title="home" alt="Return home">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/dog_on_door_20.jpg">
+  </a>
 
 	<div id="main">
