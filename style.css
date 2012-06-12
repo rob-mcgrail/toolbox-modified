@@ -29,6 +29,10 @@ a {
 
 hgroup { display: none; }
 
+#searchform {
+  max-width: 40em;
+}
+
 
 /*
 
@@ -229,7 +233,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* Notices */
 .post .notice,
-.error404 #searchform {
+.error404 {
 	background: #eee;
 	display: block;
 	padding: 1em;
