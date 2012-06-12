@@ -60,7 +60,7 @@
 		</hgroup>
 	</header><!-- #branding -->
 
-  <a href="<?php echo home_url( '/' ); ?>" title="home" alt="Return home">
+  <a href="<?php echo home_url( '/#content' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" alt="Return home">
     <img src="<?php echo get_template_directory_uri(); ?>/images/dog_on_door_20.jpg">
   </a>
 
